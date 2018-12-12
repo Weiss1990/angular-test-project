@@ -1,0 +1,98 @@
+{ "products": [
+  {
+    "category": "2",
+    "name": "product11",
+    "image": "",
+    "shortDescription": "aaa",
+    "fullDescription": "dsdfsdfds dsfdgdfgfd dfgdfg dfgdfg dfgdfgdfgdfgdfg gdfgdfgdfg",
+    "price": "122"
+  },
+  {
+    "category": "1",
+    "name": "product12",
+    "image": "",
+    "shortDescription": "bbb",
+    "fullDescription": "dsdfsdfds dsfdgdfgfd jhkjhkh hy4y4tfggfvv gretthrthr",
+    "price": "68"
+  },
+  {
+    "category": "1",
+    "name": "cccdgdf",
+    "image": "",
+    "shortDescription": "ccc",
+    "fullDescription": "ytry t3rt43y hytj jmuloiiiuitwrwe",
+    "price": "99"
+  },
+  { "category": "3",
+    "name": "dsfdsf",
+    "image": "",
+    "shortDescription": "ddd",
+    "fullDescription": "tyytr rereret rtytry bnbvn dretw wrwer werwerwetdfh e ry yyryrt yrtyeyte ",
+    "price": "73"
+  },
+  { "category": "1",
+    "name": "fdfsdf",
+    "image": "",
+    "shortDescription": "dfdfs",
+    "fullDescription": "trytr trtyrty opoipi werwerwr qewqweqw e rewrewr tt dfd g dfg fdg e",
+    "price": "154"
+  },
+  {
+    "category": "1",
+    "name": "dfdsf",
+    "image": "",
+    "shortDescription": "dsfdsfsd",
+    "fullDescription": "dsdfsdfds dsfdgdfgfd dfgdfg dfgdfg dfgdfgdfgdfgdfg gdfgdfgdfg",
+    "price": "122"
+  },
+  {
+    "category": "3",
+    "name": "sfdsdfsd",
+    "image": "",
+    "shortDescription": "dfdfd",
+    "fullDescription": "dsdfsdfds dsfdgdfgfd jhkjhkh hy4y4tfggfvv gretthrthr",
+    "price": "68"
+  },
+  {
+    "category": "1",
+    "name": "product13",
+    "image": "",
+    "shortDescription": "descr3",
+    "fullDescription": "ytry t3rt43y hytj jmuloiiiuitwrwe",
+    "price": "99"
+  },
+  {
+    "category": "3",
+    "name": "product14",
+    "image": "",
+    "shortDescription": "descr4",
+    "fullDescription": "tyytr rereret rtytry bnbvn dretw wrwer werwerwetdfh e ry yyryrt yrtyeyte ",
+    "price": "73"
+  },
+  {
+    "category": "1",
+    "name": "product15",
+    "image": "",
+    "shortDescription": "descr5",
+    "fullDescription": "trytr trtyrty opoipi werwerwr qewqweqw e rewrewr tt dfd g dfg fdg e",
+    "price": "154"
+  },
+  {
+    "category": "2",
+    "name": "fsdfsdf",
+    "image": "",
+    "shortDescription": "fdfsdf",
+    "fullDescription": "dsdfsdfds dsfdgdfgfd dfgdfg dfgdfg dfgdfgdfgdfgdfg gdfgdfgdfg",
+    "price": "122"
+  },
+  {
+    "category": "2",
+    "name": "dfgdsdsf",
+    "image": "",
+    "shortDescription": "sdfsdfs",
+    "fullDescription": "dsdfsdfds dsfdgdfgfd dfgdfg dfgdfg dfgdfgdfgdfgdfg gdfgdfgdfg",
+    "price": "500"
+  }
+]
+
+}
