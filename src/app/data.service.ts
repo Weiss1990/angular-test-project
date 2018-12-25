@@ -9,4 +9,8 @@ export class DataService {
   getCategories() {
     return this.http.get(`${this.url}categories.json`);
   }
+
+  getList() {
+    return this.http.get(`${this.url}products.json`);
+  }
 }

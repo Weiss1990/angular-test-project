@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { WebStoreCartComponent } from '../web-store-cart';
+import { WebStoreCartComponent } from '../web-store-cart/web-store-cart.component';
 import { DataService } from "../data.service";
 import { Category } from "../category";
 
