@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
 import { DataService } from "../data.service";
+import { OrderFormComponent } from "../order-form/order-form.component";
 
 @Component({
   selector: 'app-product-details',
@@ -9,6 +10,9 @@ import { DataService } from "../data.service";
   providers: [DataService]
 })
 export class ProductDetailsComponent implements OnInit {
+
+  orderAccepted: boolean = false;
+  detailInfo: any;
 
   constructor(private ActivatedRoute: ActivatedRoute, private DataService: DataService) {
     ActivatedRoute.queryParams.subscribe(params => {
@@ -21,7 +25,7 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   makeOrder() {
-    alert('ordered!');
+    this.orderAccepted = true;
   }
 
   ngOnInit() {

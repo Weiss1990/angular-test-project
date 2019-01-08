@@ -11,10 +11,16 @@ import { WebStoreCartComponent } from './web-store-cart/web-store-cart.component
 import { HttpClientModule } from '@angular/common/http';
 import { ListOverviewComponent } from './list-overview/list-overview.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { OrderFormComponent } from './order-form/order-form.component';
+import { HomeComponent } from './home/home.component';
+
+import { StoreModule } from '@ngrx/store';
+import { cartReducer } from "./reducers/webshop.cart.reducer";
 
 const appRoutes: Routes=[
   { path: 'list/:categoryId', component: ListOverviewComponent },
-  { path: 'product', component: ProductDetailsComponent }
+  { path: 'product', component: ProductDetailsComponent},
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({
@@ -23,13 +29,16 @@ const appRoutes: Routes=[
     HeaderComponent,
     WebStoreCartComponent,
     ListOverviewComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    OrderFormComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes, {onSameUrlNavigation:'reload'})
+    RouterModule.forRoot(appRoutes, {onSameUrlNavigation:'reload'}),
+    StoreModule.forRoot({cart: cartReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]

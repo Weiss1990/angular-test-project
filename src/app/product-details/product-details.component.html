@@ -3,3 +3,5 @@
 <p>{{detailInfo.fullDescription}}</p>
 <p>{{detailInfo.price}}</p>
 <button (click)="makeOrder()">Make order</button>
+
+<app-order-form [orderAccepted]="orderAccepted" [productData]="detailInfo"></app-order-form>

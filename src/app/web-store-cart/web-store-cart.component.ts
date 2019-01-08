@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges } from '@angular/core';
+import { Observable } from "rxjs/index";
+import { Store, select } from "@ngrx/store";
+import { Product } from "../models/product.model";
+import { AppState } from "../app.state";
 
 @Component({
   selector: 'app-web-store-cart',
@@ -7,7 +11,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WebStoreCartComponent implements OnInit {
 
-  constructor() { }
+  products:Observable<Product[]>;
+
+  constructor(private store: Store<AppState>) {
+    this.products = store.pipe(select('cart'));
+    console.log(this.products);
+  }
 
   amount:any = 0;
 
